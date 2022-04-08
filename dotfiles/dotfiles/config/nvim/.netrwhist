@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/kryclod/dev/university/term-I/calculo'
+let g:netrw_dirhist_5='/home/kryclod/.config/nvim/UltiSnips/markdown.snippets'
+let g:netrw_dirhist_4='/home/kryclod/.config/nvim'
+let g:netrw_dirhist_3='/home/kryclod/.config/nvim/UltiSnips'
+let g:netrw_dirhist_2='/home/kryclod/.config/nvim/UltiSnips/markdown.snippets'
+let g:netrw_dirhist_1='/home/kryclod/.config'

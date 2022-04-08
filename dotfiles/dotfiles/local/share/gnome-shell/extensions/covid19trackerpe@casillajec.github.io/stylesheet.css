@@ -1,0 +1,17 @@
+.covid-text {
+	max-width: 300px;
+	font-size: 0.9em;
+}
+
+.country-menu-item {
+	max-width: 40px;
+	font-size: 0.9em;
+}
+
+.flag-icon {
+	margin-right: 5px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	height: 13px;
+    width: 23px;
+}

@@ -1,0 +1,40 @@
+config:
+  backup: true
+  create: true
+  dotpath: dotfiles
+dotfiles:
+  d_neofetch:
+    src: config/neofetch
+    dst: ~/.config/neofetch
+  d_nvim:
+    src: config/nvim
+    dst: ~/.config/nvim
+  f_zshrc:
+    src: zshrc
+    dst: ~/.zshrc
+  f_starship.toml:
+    src: config/starship.toml
+    dst: ~/.config/starship.toml
+  d_ulauncher:
+    src: config/ulauncher
+    dst: ~/.config/ulauncher
+  d_plank:
+    src: local/share/plank
+    dst: ~/.local/share/plank
+  d_extensions:
+    src: local/share/gnome-shell/extensions
+    dst: ~/.local/share/gnome-shell/extensions
+  f_alacritty.yml:
+    src: config/alacritty/alacritty.yml
+    dst: ~/.config/alacritty/alacritty.yml
+profiles:
+  aorus:
+    dotfiles:
+    - d_neofetch
+    - d_nvim
+    - f_zshrc
+    - f_starship.toml
+    - d_ulauncher
+    - d_plank
+    - d_extensions
+    - f_alacritty.yml

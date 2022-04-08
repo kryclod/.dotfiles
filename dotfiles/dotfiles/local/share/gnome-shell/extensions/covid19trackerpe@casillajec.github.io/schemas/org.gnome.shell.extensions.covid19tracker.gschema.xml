@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.covid19tracker.cache" path="/org/gnome/shell/extensions/covid19tracker/">
+    <!-- See also: https://developer.gnome.org/glib/stable/gvariant-format-strings.html -->
+    <!-- (countryCode, countryName, cases, deaths, recovered, active, critical, confirmed, timestamp, todayCases, todayDeaths, casesPerOneMillion, deathsPerOneMillion, flagUrl) -->
+    <key name="cache" type="a(ssiiiiiisiidds)">
+		<default>[]</default>
+    </key>
+    <key name="selected-country" type="s">
+      <default>"WRL"</default>
+    </key>
+    <key name="update-frequency" type="i">
+		<default>600</default>
+    </key>
+  </schema>
+</schemalist>

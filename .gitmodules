@@ -1,0 +1,6 @@
+[submodule "dotdrop"]
+	path = dotdrop
+	url = https://github.com/deadc0de6/dotdrop.git
+[submodule "dotfiles/dotdrop"]
+	path = dotfiles/dotdrop
+	url = https://github.com/deadc0de6/dotdrop.git
